@@ -19,21 +19,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return when (item.itemId) {
-            R.id.action_settings -> {
-                Toast.makeText(this, "Configurações selecionadas", Toast.LENGTH_SHORT).show()
-                true
-            }
-            R.id.action_help -> {
-                Toast.makeText(this, "Ajuda selecionada", Toast.LENGTH_SHORT).show()
-                true
-            }
-            R.id.action_about -> {
-                Toast.makeText(this, "Sobre selecionado", Toast.LENGTH_SHORT).show()
-                true
-            }
-            else -> super.onOptionsItemSelected(item)
-        }
+        val message = "${item.title} selecionado"
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+        return super.onOptionsItemSelected(item)
     }
 
 }
