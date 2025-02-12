@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "557991791443",
+    "project_id": "auth-4bede",
+    "storage_bucket": "auth-4bede.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557991791443:android:8bf8f63592da78a9b8afa6",
+        "android_client_info": {
+          "package_name": "com.example.auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557991791443-h2bmavmuqa6ef0e4v2inj3et4hlrsb39.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.auth",
+            "certificate_hash": "e1615a98e9ddb5d4d33ffff3b0f9cd190e849d04"
+          }
+        },
+        {
+          "client_id": "557991791443-l9440qr02gf4jk9pg4rib8qpkhkct5ms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6RIlRSiLmpWBImBga88YNXzpoSAZAhHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557991791443-l9440qr02gf4jk9pg4rib8qpkhkct5ms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
